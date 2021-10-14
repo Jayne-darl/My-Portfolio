@@ -15,3 +15,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  box-sizing: border-box;
+  transition: all .7s ease-in;
+}
+IMPORTANT
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
+
+.nav-link::marker {
+  color: rgba(227, 129, 104, var(--tw-text-opacity));
+}
+
+.hide-on-scroll {
+  animation: hide-on-scroll 1000ms;
+}
+
+@keyframes hide-on-scroll {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 50%;
+	}
+
+  100% {
+    opacity: 100%;
+  }
+}

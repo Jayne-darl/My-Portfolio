@@ -1,9 +1,12 @@
 const Contact = () => {
-    return (<section id="about">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-            <p>Contact Section</p>
-        </div>
+  return (
+    <section id="contact">
+      <div className="container mx-auto flex md:px-20 px-7 flex-col items-center">
+        <h1 className="text-white self-start mb-5 font-bold text-xl">
+          About Me
+        </h1>
+      </div>
     </section>
-    );
-}
-export default Contact
+  );
+};
+export default Contact;
