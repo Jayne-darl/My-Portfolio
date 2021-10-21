@@ -26,7 +26,7 @@ const Socials = () => {
           <ul className="socials text-light-blue list-none flex flex-col">
             <div className="items-center space-y-5 py-4">
               {socials.map(({ href, icon }) => (
-                <li>
+                <li key={href}>
                   <a
                     href={href}
                     rel="noopener noreferrer"

@@ -8,11 +8,17 @@ import {
 
 const Contact = () => {
   const socials = [
-    { href: "#about", icon: <RiGithubFill /> },
-    { href: "#about", icon: <RiTwitterFill /> },
-    { href: "#about", icon: <RiLinkedinFill /> },
-    { href: "#about", icon: <RiInstagramFill /> },
-    { href: "#about", icon: <RiMediumFill /> },
+    { href: "https://github.com/Jayne-darl", icon: <RiGithubFill /> },
+    { href: "https://twitter.com/nwaada_uche", icon: <RiTwitterFill /> },
+    {
+      href: "https://www.linkedin.com/in/jane-onwumere/",
+      icon: <RiLinkedinFill />,
+    },
+    {
+      href: "https://www.instagram.com/janieuchechukwu/",
+      icon: <RiInstagramFill />,
+    },
+    { href: "https://medium.com/@janeuchechukwu", icon: <RiMediumFill /> },
   ];
   return (
     <section id="contact" className="w-full">
@@ -37,7 +43,7 @@ const Contact = () => {
       <div className="flex md:hidden py-8 m-auto">
         <ul className=" text-light-blue w-full list-none flex items-center justify-center space-x-8">
           {socials.map(({ href, icon }) => (
-            <li>
+            <li key={href}>
               <a href={href} className="text-lg">
                 {icon}
               </a>

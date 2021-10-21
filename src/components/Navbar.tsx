@@ -49,7 +49,7 @@ const useNavbar = () => {
       >
         <header className={" pb-5  pt-5 mx-auto flex flex-row justify-between"}>
           <div className="flex space-x-7 xl:pt-1">
-            <p className="text-regal-red">JO</p>
+            <p className="text-regal-red font-extrabold text-2xl">JO</p>
           </div>
           <a
             href="https://drive.google.com/file/d/1vinGoQofxkXEvOrh9JxUXlr5VvLrPdb4/view?usp=sharing"
