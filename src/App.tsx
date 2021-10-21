@@ -41,16 +41,16 @@ function RegularScreens({ children, hidden }: Props) {
   );
 }
 
-// function Sections() {
-//   return (
-//     <>
-//       <Home />
-//       <About />
-//       <Projects />
-//       <Contact />
-//     </>
-//   );
-// }
+function Sections() {
+  return (
+    <>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+    </>
+  );
+}
 
 function App() {
   const { render, hidden } = useNavbar();
@@ -64,10 +64,7 @@ function App() {
             <section
               className={" max-w-3xl flex flex-col justify-center items-center"}
             >
-              <Home />
-              <About />
-              <Projects />
-              <Contact />
+              <Sections />
             </section>
           </RegularScreens>
           <ExtraLarge />

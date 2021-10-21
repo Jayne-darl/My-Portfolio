@@ -1,6 +1,6 @@
-import screen1 from "../images/app-screen1.jpg";
-import screen2 from "../images/app-screen2.jpg";
-import screen3 from "../images/app-screen3.jpg";
+import screen1 from "../images/app-screen1.jpeg";
+import screen2 from "../images/app-screen2.jpeg";
+import screen3 from "../images/app-screen3.jpeg";
 
 const Projects = () => {
   return (
